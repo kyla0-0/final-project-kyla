@@ -66,4 +66,59 @@ label start:
 
         c "Follow me, I'll carry your bags for you. I have some more supplies for you in my boat."
 
+        scene bg cboat
+        with fade
+
+        c "Welcome aboard matey! My grand galleon!"
+
+        m "...A galleon?"
+
+        c "It's a type of ship...Like the one pirates have..You don't follow pirate lore?"
+
+        m "?"
+
+        c "...Moving on. There aren't many pirates around these waters anyway."
+
+        c "This is a cast net. The part I'm holding here is called a handline."
+
+        c "So what you do is hold one end of the handline with both hands and then throw the net into the water in a circular motion."
+
+        c "The net has weights around it so it'll sink. Keep at tight grip so you don't drop the net."
+
+        c "Now you try!"
+
+        c "See? Easy. Now we wait."
+
+        c "In the meanwhile, I'll tell ya about responsible fishing practices. There's all types of rules and guidelines you have to follow."
+
+        c "First of all, you should only fish in areas where you're allowed to."
+        
+        c "There will be areas where there's a sign that says fishing is prohibited. Don't go in those prohibited areas."
+
+        c "They're prohibited for a reason! Fish populations need time to replenish, and there's also endangered species in those areas."
+
+        c "Another rule among fishers! Don't fish more than the daily limit."
+
+        c "Only catch as much fish as you can fit in one boat trip. That way the fish populations stay in check."
+
+        c "And as a fisher, try your best to only catch fish. No sharks, turtles, or any of the like. And don't cause environmental damage."
+
+        c "To do this, you need to use the right fishing methods. Don't use bottom trawls. Bottom trawls are nets dragged across the sea floor. Very destructive!"
+
+        c "And don't use dynamite???? That is really illegal. But I've seen it happen, unfortunately. The perpetrator got executed."
+
+        c "Best to stick with the methods I show you."
+
+        c "Oh, and one last rule. Don't work for big fisheries! You're plenty fine on your own."
+
+        m "What are fisheries?"
+
+        c "They're basically fishing businesses. A lot of 'em just care about profit, and only profit. The work is very physically taxing."
+
+        "Some time later..."
+
+        c "Ok, the nets are full. Now pull your net in."
+
+        c "Any questions so far?"
+
     return
