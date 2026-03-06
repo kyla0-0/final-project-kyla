@@ -1,5 +1,6 @@
-﻿define c = Character("Candi", color="#B20100")
+﻿define c = Character('Candi', color="#B20100")
 define m = Character('Me', color="#084747ff")
+define g = Character('Gus', color="#ABGG24")
 
 
 label start:
@@ -120,5 +121,115 @@ label start:
         c "Ok, the nets are full. Now pull your net in."
 
         c "Any questions so far?"
+
+        m "I'm hungry"
+
+        c "Ok, that'll be it for today."
+
+        c "Let's stop by your house to see if it's done."
+
+        scene mhouse
+        with fade
+
+        "Some time later..."
+
+        c "Seems like the movers jsut finished up. That's good."
+
+        c "Well, see ya later, alligator!"
+
+        m "See ya!"
+
+        hide candi
+
+        m "Home sweet home..."
+
+        m "Looks just like my old home, just with a different floor plan."
+
+        m "How did they know what my old home looked like?"
+
+        m "Let's see if there's anything in the fridge."
+
+        "The next day: Morning"
+
+        m "Yawwwwn"
+
+        m "...Who is that at the door?"
+
+        show gus
+
+        g "HAIIIIIIIIIIIIIII! My name's Gus and I'm your neighbor!!"
+
+        g "Welcome to Salmontin, Tin! (hahaha, tin tin...)"
+
+        m "(Is everyone gonna say this?)"
+
+        g "The town is very excited to get to know you! We've heard a bit about you already and you seem great!"
+
+        g "If you ever need a fishing buddy, I'd be stoked to be one!"
+
+        m "One more fishing buddy couldn't hurt."
+
+        g "You have one already? Who is...Oh. Candi, right?"
+
+        m "Yep."
+
+        g "Haha, I know her! She's like one of the best fishers in town."
+
+        g "Y'know, you might hear some rumors about her, but I wouldn't pay them any mind. A lot of people think she's evil, but she's actually really sweet."
+
+        g "I can't say too much about this, so don't ask."
+
+        m "(I was gonna ask...)"
+
+        g "Speaking of people you should stay away from, stay away from . He's going to destroy this town with the way he fishes!"
+
+        g "If it's alright with you, we could go on a little fishing trip today. After you get ready, of course!"
+
+        g "The town is still working on getting you a boat, so in the meantime, you'll have to fish with all of us!"
+
+        m "Sure."
+
+        g "Yayy!! See you later."
+
+        scene gboat
+        with fade
+
+        "Later..."
+
+        g "You're a beginner, right? So we'll start off with fishing rods! They're a classic."
+
+        g "They're not very efficient for commercial fishing, but you still need to know how to use them efficiently."
+
+        g "We use them for town fishing competitions, and the winners get a trophy!"
+
+        g "First, we attach the bait to the hook. Then we cast the rod into the water and wait."
+
+        g "When you feel a tug, reel it in!"
+
+        g "Any questions in the meantime?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     return
