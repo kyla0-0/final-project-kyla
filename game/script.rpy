@@ -1,6 +1,9 @@
 ﻿define c = Character('Candi', color="#B20100")
 define m = Character('Me', color="#084747ff")
 define g = Character('Gus', color="#ABGG24")
+image candi = "defcan.png"
+image candi surprised = "supcan.png"
+image bg townent = "townEntrance.png"
 
 
 label start:
@@ -52,11 +55,16 @@ label start:
 
     label nope:
 
+        show candi surprised
+
         c "Like, personally? If so, I have some good news for you…"
 
         jump contin1
 
     label contin1:
+
+        show candi -surprised
+            
         c "Y'know, I like fish both as an animal and as a dish. Speaking of fish..."
 
         c "I know you just got here, but we should fish now before it gets dark. It's best you learn how to fish as soon as possible."
