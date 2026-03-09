@@ -49,7 +49,7 @@ label start:
 
     label yeah:
 
-        c "That’s nice! Or not, depending on whether you like them dead or alive…"
+        c "That's nice! Or not, depending on whether you like them dead or alive…"
 
         jump contin1
 
@@ -141,7 +141,7 @@ label start:
 
         "Some time later..."
 
-        c "Seems like the movers jsut finished up. That's good."
+        c "Seems like the movers just finished up. That's good."
 
         c "Well, see ya later, alligator!"
 
@@ -189,11 +189,15 @@ label start:
 
         m "(I was gonna ask...)"
 
-        g "Speaking of people you should stay away from, stay away from . He's going to destroy this town with the way he fishes!"
+        g "Speaking of people you should stay away from, stay away from Fish. He's going to destroy this town with the way he fishes!"
+
+        g "He's so bad that it's like he's singlehandedly contributing to the GLOBAL problem of overfishing!"
+
+        m "(A guy named Fish is a bad fisher??)"
 
         g "If it's alright with you, we could go on a little fishing trip today. After you get ready, of course!"
 
-        g "The town is still working on getting you a boat, so in the meantime, you'll have to fish with all of us!"
+        g "The mayor is still working on getting you a boat, so in the meantime, you'll have to fish with all of us!"
 
         m "Sure."
 
@@ -214,7 +218,48 @@ label start:
 
         g "When you feel a tug, reel it in!"
 
-        g "Any questions in the meantime?"
+        g "Any questions in the meantime? And only questions about fishing and the like, please."
+
+        menu:
+        "The rumors about Candi?":
+            jump rumor1
+
+        "Good fishing methods?":
+            jump fishmethod1
+
+        "What does overfishing do?"
+            jump over1
+
+        label rumor1:
+            
+            g "As I said, I can't talk about that..."
+
+            g "And double as I said, only fishing questions..You got any fishing questions?"
+
+            menu:
+
+                "Good fishing methods?":
+                    jump fishmethod1
+
+                "What does overfishing do?"
+                    jump over1
+
+        label fishmethod 1:
+
+            g "Good question!"
+
+            g "You should use LED nets. They're great for targeting specific species since different LED colors attract different species."
+
+            g "They're also great at reducing bycatch! Bycatch is when marine animals are unintentionally captured while trying to catch other marine animals."
+
+        label over1:
+            g "It depletes the population of marine species faster than they can reproduce. Messes up the whole ecosystem."
+
+            g "Makes fishing harder for everyone. People can't get the fish they want and fishers struggle to make money."
+
+            g "Many people had to leave this town because they couldn't make enough to support their family."
+
+            g ""
 
 
 
