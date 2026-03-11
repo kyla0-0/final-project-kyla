@@ -231,35 +231,105 @@ label start:
             jump over1
 
         label rumor1:
-            
             g "As I said, I can't talk about that..."
 
             g "And double as I said, only fishing questions..You got any fishing questions?"
 
             menu:
-
-                "Good fishing methods?":
+                "Good fishing method?":
                     jump fishmethod1
 
                 "What does overfishing do?"
                     jump over1
 
         label fishmethod 1:
-
             g "Good question!"
 
-            g "You should use LED nets. They're great for targeting specific species since different LED colors attract different species."
+            g "You should use nets with LED lighting. They're great for targeting specific species since different LED colors attract different species."
 
-            g "They're also great at reducing bycatch! Bycatch is when marine animals are unintentionally captured while trying to catch other marine animals."
+            g "Different species have different responses to the different lights. Pretty cool!"
+
+            g "They're also great at reducing bycatch! Bycatch is the unintentional capture of non-target species when trying to catch other species. It's against this town's rules to have too much bycatch."
+
+            g "Any other questions?"
+
+            jump contin2
 
         label over1:
             g "It depletes the population of marine species faster than they can reproduce. Messes up the whole ecosystem."
 
-            g "Makes fishing harder for everyone. People can't get the fish they want and fishers struggle to make money."
+            g "Makes fishing harder for everyone. People can't get the fish they want and fishers struggle more and more to fish enough fish."
 
-            g "Many people had to leave this town because they couldn't make enough to support their family."
+            g "They need to fish to make a living, but they're limited on what they can fish, so prices for fish have gone way up."
 
-            g ""
+            g "Fishers aren't the only ones who rely on fish, people eat fish!! Most of our restaurants serve seafood, so they have to raise their prices as well."
+
+            g "And those fishing subsidies sure don't help either!"
+
+            g "Fishing subsidies are monetary grants given by the government to help fisheries. You'd think they help, but they don't!"
+
+            g "All it does is encourage fisheries to overfish to make more money. Bad for everyone else, and for themselves too, but they can only think in the present moment, apparently."
+
+            g "That's why you should never join a fishery. I was in one for a while back when I was a newbie and it was grueling. Terrible quotas."
+
+            g "Even the fish were tired of it! They whispered to me..."
+
+            g "Oh! By the way, fishery means fishing industry, at least in general. If there's ever a term you don't know, tell me."
+
+            g "Any other questions?"
+            
+            jump contin2
+
+        label contin2:
+            g "Oh?? A fishie? Reel it in!"
+
+            g "Nice! That's a very good fish."
+
+            g "That would sell for like, a decent amount of money."
+
+            g "Oop! I've caught a fish too."
+
+            g "Yay, it's pretty good as well!"
+
+            g "This was a nice little fishing trip."
+
+            menu:
+                "You make it enjoyable":
+                jump fren1
+
+                "It was so boring":
+                jump hostile1
+
+        label fren1:
+            g "Whaa? That's the nicest thing anyone's ever said to me.."
+
+            g "You're a swell person yourself!"
+
+        label hostile1:
+            g "..Oh..."
+
+            g "Um...I apologize that you didn't find it it fun. Was there anything I could've done better?"
+
+            menu:
+                "Be more interesting":
+                jump hostile2
+
+                "No, I just feel tired":
+                jump save1
+
+        label hostile2:
+            g "..."
+
+            g "Why are you so mean?!?"
+
+            g "I'm going to sail us back to the dock, but I'll do so very sadly!"
+
+            g "Don't talk to me for a while, ok? I'm too busy drowning in sadness."
+
+        label save1:
+            g "That makes sense, you just got here after all. Oh, and my condolences for what happened to your old house."
+
+            
 
 
 
